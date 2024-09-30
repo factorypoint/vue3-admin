@@ -175,7 +175,9 @@ const handleDelete = () => {
 // 单个删除
 const handleDeleteOne = (id) => {
   axios.delete('/indexConfigs', {
+    data: {
     ids: [id]
+  }
   }).then(() => {
     ElMessage.success('删除成功')
     getIndexConfig()

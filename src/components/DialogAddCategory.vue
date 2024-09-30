@@ -107,7 +107,7 @@ const submitForm = () => {
         axios.put('/categories', {
           categoryId: state.id,
           categoryLevel: state.categoryLevel,
-          parentId: state.categoryLevel,
+          parentId: state.parentId,
           categoryName: state.ruleForm.name,
           categoryRank: state.ruleForm.rank
         }).then(() => {
