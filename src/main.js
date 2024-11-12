@@ -56,7 +56,7 @@ app.config.globalProperties.$filters = {
     if (url && url.startsWith('http')) {
       return url
     } else {
-      url = `http://www.factorypoint.com:8080${url}`
+      url = `https://api.factorypoint.com${url}`
       return url
     }
   }

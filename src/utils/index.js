@@ -22,9 +22,9 @@ export function hasEmoji (str = '') {
 }
 
 // 单张图片上传
-export const uploadImgServer = 'http://www.factorypoint.com:8080/manage-api/v1/upload/file'
+export const uploadImgServer = 'https://api.factorypoint.com/manage-api/v1/upload/file'
 // 多张图片上传
-export const uploadImgsServer = 'http://www.factorypoint.com:8080/manage-api/v1/upload/files'
+export const uploadImgsServer = 'https://api.factorypoint.com/manage-api/v1/upload/files'
 
 export const pathMap = {
   login: '登录',
